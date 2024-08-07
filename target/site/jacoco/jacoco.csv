@@ -1,0 +1,16 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+mybank,com.itexpert.homework.mybank,Bank,268,335,12,11,51,86,13,22,5,17
+mybank,com.itexpert.homework.mybank,Savings,0,18,0,0,0,7,0,2,0,2
+mybank,com.itexpert.homework.mybank,Business,0,15,0,0,0,6,0,2,0,2
+mybank,com.itexpert.homework.mybank,Checking,0,18,0,0,0,7,0,2,0,2
+mybank,com.itexpert.homework.mybank,Contractor,0,15,0,0,0,6,0,2,0,2
+mybank,com.itexpert.homework.mybank,Account,0,95,1,7,0,32,1,15,0,12
+mybank,com.itexpert.homework.mybank,MyDriver,586,0,25,0,173,0,20,0,2,0
+mybank,com.itexpert.homework.mybank,AccountType,0,21,0,0,0,4,0,1,0,1
+mybank,com.itexpert.homework.mybank,EmployeeType,0,15,0,0,0,3,0,1,0,1
+mybank,com.itexpert.homework.mybank,Employee,0,42,0,0,0,15,0,8,0,8
+mybank,com.itexpert.homework.mybank,FixedDeposit,0,18,0,0,0,7,0,2,0,2
+mybank,com.itexpert.homework.mybank,CustomerType,0,15,0,0,0,2,0,1,0,1
+mybank,com.itexpert.homework.mybank,FullTime,0,15,0,0,0,6,0,2,0,2
+mybank,com.itexpert.homework.mybank,Individual,0,15,0,0,0,6,0,2,0,2
+mybank,com.itexpert.homework.mybank,Customer,0,42,0,0,0,15,0,8,0,8

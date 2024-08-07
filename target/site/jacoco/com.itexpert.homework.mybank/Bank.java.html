@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Bank.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">mybank</a> &gt; <a href="index.source.html" class="el_package">com.itexpert.homework.mybank</a> &gt; <span class="el_source">Bank.java</span></div><h1>Bank.java</h1><pre class="source lang-java linenums">/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.itexpert.homework.mybank;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.StringTokenizer;
+
+/**
+ *
+ * @author Ana
+ */
+public class Bank {
+    private int bankID;
+    private String bankName;
+    private String bankAddress;
+    private HashMap&lt;Integer,Employee&gt; employees;
+    private HashMap&lt;Integer, Customer&gt; customers;
+    private HashMap&lt;Integer, Account&gt; accounts;
+    private String filePath;
+    
+<span class="fc" id="L32">    public Bank(int bankID, String bankName, String bankAddress) {</span>
+<span class="fc" id="L33">        this.bankID = bankID;</span>
+<span class="fc" id="L34">        this.bankName = bankName;</span>
+<span class="fc" id="L35">        this.bankAddress = bankAddress;</span>
+<span class="fc" id="L36">        this.employees = new HashMap&lt;&gt;();</span>
+<span class="fc" id="L37">        this.customers = new HashMap&lt;&gt;();</span>
+<span class="fc" id="L38">        this.accounts = new HashMap&lt;&gt;();</span>
+        
+<span class="fc" id="L40">    }</span>
+
+    public String getFilePath() {
+<span class="fc" id="L43">        return filePath;</span>
+    }
+
+    public void setFilePath(String filePath) {
+<span class="fc" id="L47">        this.filePath = filePath;</span>
+<span class="fc" id="L48">    }</span>
+
+   
+    public int getBankID() {
+<span class="fc" id="L52">        return bankID;</span>
+    }
+
+    public void setBankID(int bankID) {
+<span class="fc" id="L56">        this.bankID = bankID;</span>
+<span class="fc" id="L57">    }</span>
+
+    public String getBankName() {
+<span class="fc" id="L60">        return bankName;</span>
+    }
+
+    public void setBankName(String bankName) {
+<span class="fc" id="L64">        this.bankName = bankName;</span>
+<span class="fc" id="L65">    }</span>
+
+    public String getBankAddress() {
+<span class="fc" id="L68">        return bankAddress;</span>
+    }
+
+    public void setBankAddress(String bankAddress) {
+<span class="fc" id="L72">        this.bankAddress = bankAddress;</span>
+<span class="fc" id="L73">    }</span>
+
+    // Add/Update Bank//
+    public void addOrUpdateBank() {
+<span class="nc" id="L77">        filePath = &quot;c:\\data\\mybank.txt&quot;;</span>
+<span class="nc" id="L78">        Scanner sc = new Scanner(System.in);</span>
+<span class="nc" id="L79">        System.out.println(&quot;Enter ID&quot;);</span>
+<span class="nc" id="L80">        System.out.println(&quot;Enter new bank name&quot;);</span>
+<span class="nc" id="L81">        System.out.println(&quot;Enter Address&quot;);</span>
+<span class="nc" id="L82">        this.bankName = sc.next();</span>
+<span class="nc" id="L83">        saveDataToFile(filePath); </span>
+       
+<span class="nc" id="L85">    }</span>
+    // Add/Update Employee
+    public void addOrUpdateEmployee(Employee employee ) {
+        // Logic to add or update employee
+<span class="fc" id="L89">        employees.put(employee.getEmployeeID(), employee);</span>
+        
+<span class="fc" id="L91">    }  </span>
+    // Add/Update Customer
+    public void addOrUpdateCustomer(Customer customer) {
+        // Logic to add or update customer
+<span class="fc" id="L95">        customers.put(customer.getCustomerId(), customer);</span>
+<span class="fc" id="L96">    }</span>
+
+    // Add/Update Account
+    public void addOrUpdateAccount(Account account) {
+        // Logic to add or update account
+<span class="fc" id="L101">        accounts.put(account.getAccountID(),account);</span>
+<span class="fc" id="L102">    }</span>
+    public Map&lt;Integer, Account&gt; getAccounts() {
+<span class="nc" id="L104">        return accounts;</span>
+    }
+   // Show Employees
+    public void showEmployees() {
+<span class="nc bnc" id="L108" title="All 2 branches missed.">        for (Map.Entry&lt;Integer, Employee&gt; entry : employees.entrySet()) {</span>
+<span class="nc" id="L109">            System.out.println(&quot;Employee ID: &quot; + entry.getKey() + &quot;, Details: &quot; + entry.getValue());</span>
+<span class="nc" id="L110">        }</span>
+<span class="nc" id="L111">    }</span>
+
+    // Show Customers
+    public void showCustomers() {
+<span class="nc bnc" id="L115" title="All 2 branches missed.">        for (Map.Entry&lt;Integer, Customer&gt; entry : customers.entrySet()) {</span>
+<span class="nc" id="L116">            System.out.println(&quot;Customer ID: &quot; + entry.getKey() + &quot;, Details: &quot; + entry.getValue());</span>
+<span class="nc" id="L117">        }</span>
+<span class="nc" id="L118">    }</span>
+
+    // Show Accounts
+    public void showAccounts() {
+<span class="nc bnc" id="L122" title="All 2 branches missed.">        for (Map.Entry&lt;Integer, Account&gt; entry : accounts.entrySet()) {</span>
+<span class="nc" id="L123">            System.out.println(&quot;Account ID: &quot; + entry.getKey() + &quot;, Details: &quot; + entry.getValue());</span>
+<span class="nc" id="L124">        }</span>
+<span class="nc" id="L125">    }</span>
+
+   
+    // Search Customer by ID
+    public Customer searchCustomerByID(int customerId) {
+<span class="fc" id="L130">        return customers.get(customerId);</span>
+    }
+
+    // Search Employee by ID
+    public Employee searchEmployeeByID(int employeeID) {
+<span class="fc" id="L135">        return employees.get(employeeID);</span>
+    }
+    //Search Account by ID
+     public Account searchAccountByID(int accountID) {
+<span class="fc" id="L139">        return accounts.get(accountID);</span>
+    }
+      
+      // Load data from file
+    public void loadDataFromFile(String filePath) {
+<span class="fc" id="L144">        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {</span>
+            String line;
+<span class="fc bfc" id="L146" title="All 2 branches covered.">            while ((line = br.readLine()) != null) {</span>
+<span class="fc" id="L147">                StringTokenizer st = new StringTokenizer(line, &quot;,&quot;);</span>
+<span class="fc bfc" id="L148" title="All 2 branches covered.">                while (st.hasMoreTokens()) {</span>
+<span class="fc" id="L149">                    String token = st.nextToken().trim();</span>
+<span class="fc" id="L150">                    String[] parts = token.split(&quot;=&quot;);</span>
+
+<span class="pc bpc" id="L152" title="1 of 2 branches missed.">                    if (parts.length == 3) {</span>
+<span class="nc" id="L153">                        String key = parts[0];</span>
+<span class="nc" id="L154">                        int id = Integer.parseInt(parts[1]);</span>
+<span class="nc" id="L155">                        String[] data = parts[2].split(&quot;,&quot;);</span>
+
+<span class="nc bnc" id="L157" title="All 5 branches missed.">                        switch (key) {</span>
+                            case &quot;bankID&quot;:
+<span class="nc" id="L159">                                String bankName = data[0].split(&quot;:&quot;)[1];</span>
+<span class="nc" id="L160">                                Bank bank = new Bank(id, bankName,bankAddress);</span>
+                            case &quot;employeeID&quot;:
+<span class="nc" id="L162">                                String empName = data[0].split(&quot;:&quot;)[1];</span>
+<span class="nc" id="L163">                                EmployeeType empType = EmployeeType.valueOf(data[1].split(&quot;:&quot;)[1]); // Parse enum</span>
+<span class="nc" id="L164">                                Employee employee = new Employee(id, empName, empType);</span>
+<span class="nc" id="L165">                                employees.put(id, employee); // Add employee to the map</span>
+<span class="nc" id="L166">                            break;</span>
+                            case &quot;customerID&quot;:
+<span class="nc" id="L168">                                String custName = data[0].split(&quot;:&quot;)[1];</span>
+<span class="nc" id="L169">                                CustomerType custType = CustomerType.valueOf(data[1].split(&quot;:&quot;)[1]);</span>
+<span class="nc" id="L170">                                Customer customer = new Customer(id, custName, custType);</span>
+<span class="nc" id="L171">                                customers.put(id, customer);</span>
+<span class="nc" id="L172">                                break;</span>
+                            case &quot;accountID&quot;:
+<span class="nc" id="L174">                                String accType = data[0].split(&quot;:&quot;)[1];</span>
+<span class="nc" id="L175">                                double balance = Double.parseDouble(data[1].split(&quot;:&quot;)[1]);</span>
+<span class="nc" id="L176">                                String accCustomerName = data[2].split(&quot;:&quot;)[1];</span>
+<span class="nc" id="L177">                                AccountType accountType = AccountType.valueOf(accType);</span>
+<span class="nc" id="L178">                                Account account = new Account(id, accountType, balance, accCustomerName);</span>
+<span class="nc" id="L179">                                accounts.put(id, account);</span>
+<span class="nc" id="L180">                                break;</span>
+                            default:
+<span class="nc" id="L182">                                System.out.println(&quot;Unknown key: &quot; + key);</span>
+                                break;
+                        }
+                    }
+<span class="fc" id="L186">                }</span>
+<span class="fc" id="L187">            }</span>
+<span class="fc" id="L188">            System.out.println(&quot;Data loaded successfully from file: &quot; + filePath);</span>
+<span class="nc" id="L189">        } catch (IOException e) {</span>
+<span class="nc" id="L190">            System.err.println(&quot;Error loading data from file: &quot; + e.getMessage());</span>
+<span class="nc" id="L191">        } catch (NumberFormatException e) {</span>
+<span class="nc" id="L192">            System.err.println(&quot;Error parsing numeric value: &quot; + e.getMessage());</span>
+<span class="pc" id="L193">        }</span>
+<span class="fc" id="L194">    }</span>
+
+    // Save data to file
+    public void saveDataToFile(String filePath) {
+<span class="fc" id="L198">        try (BufferedWriter bw = new BufferedWriter(new FileWriter(filePath))) {</span>
+            // Bank header
+            
+<span class="fc" id="L201">            bw.write(&quot; Bank: ID = &quot; + this.bankID   +  &quot;Name = &quot;  + this.bankName   +    &quot;Address = &quot;  + this.bankAddress);</span>
+<span class="fc" id="L202">            bw.newLine();</span>
+<span class="fc" id="L203">            bw.write(&quot;-----------------------------------------&quot;);</span>
+<span class="fc" id="L204">            bw.newLine();</span>
+
+            // Employees header
+<span class="fc" id="L207">            bw.write(&quot;List of Employees:&quot;);</span>
+<span class="fc" id="L208">            bw.newLine();</span>
+<span class="fc" id="L209">            bw.write(&quot;-----------------------------------------&quot;);</span>
+<span class="fc" id="L210">            bw.newLine();</span>
+<span class="fc bfc" id="L211" title="All 2 branches covered.">            for (Map.Entry&lt;Integer, Employee&gt; entry : employees.entrySet()) {</span>
+<span class="fc" id="L212">                bw.write(&quot;employeeID=&quot; + entry.getKey() + &quot;,&quot;);</span>
+<span class="fc" id="L213">                bw.write(&quot;employeeName=&quot; + entry.getValue().getEmployeeName() + &quot;,&quot;);</span>
+<span class="fc" id="L214">                bw.write(&quot;employeeType=&quot; + entry.getValue().getEmployeeType());</span>
+<span class="fc" id="L215">                bw.newLine();</span>
+<span class="fc" id="L216">            }</span>
+<span class="fc" id="L217">            bw.write(&quot;-----------------------------------------&quot;);</span>
+<span class="fc" id="L218">            bw.newLine();</span>
+
+            // Customers header
+<span class="fc" id="L221">            bw.write(&quot;List of Customers:&quot;);</span>
+<span class="fc" id="L222">            bw.newLine();</span>
+<span class="fc" id="L223">            bw.write(&quot;-----------------------------------------&quot;);</span>
+<span class="fc" id="L224">            bw.newLine();</span>
+<span class="fc bfc" id="L225" title="All 2 branches covered.">            for (Map.Entry&lt;Integer, Customer&gt; entry : customers.entrySet()) {</span>
+<span class="fc" id="L226">                bw.write(&quot;customerID=&quot; + entry.getKey() + &quot;,&quot;);</span>
+<span class="fc" id="L227">                bw.write(&quot;customerName=&quot; + entry.getValue().getCustomerName() + &quot;,&quot;);</span>
+<span class="fc" id="L228">                bw.write(&quot;customerType=&quot; + entry.getValue().getCustomerType());</span>
+<span class="fc" id="L229">                bw.newLine();</span>
+<span class="fc" id="L230">            }</span>
+<span class="fc" id="L231">            bw.write(&quot;-----------------------------------------&quot;);</span>
+<span class="fc" id="L232">            bw.newLine();</span>
+
+            // Accounts header
+<span class="fc" id="L235">            bw.write(&quot;List of Accounts:&quot;);</span>
+<span class="fc" id="L236">            bw.newLine();</span>
+<span class="fc" id="L237">            bw.write(&quot;-----------------------------------------&quot;);</span>
+<span class="fc" id="L238">            bw.newLine();</span>
+<span class="fc bfc" id="L239" title="All 2 branches covered.">            for (Map.Entry&lt;Integer, Account&gt; entry : accounts.entrySet()) {</span>
+<span class="fc" id="L240">                bw.write(&quot;accountID=&quot; + entry.getKey() + &quot;,&quot;);</span>
+<span class="fc" id="L241">                bw.write(&quot;accountType=&quot; + entry.getValue().getAccountType() + &quot;,&quot;);</span>
+<span class="fc" id="L242">                bw.write(&quot;balance=&quot; + entry.getValue().getBalance() + &quot;,&quot;);</span>
+<span class="fc" id="L243">                bw.write(&quot;customerName=&quot; + entry.getValue().getCustomerName());</span>
+<span class="fc" id="L244">                bw.newLine();</span>
+<span class="fc" id="L245">            }</span>
+<span class="fc" id="L246">            bw.write(&quot;-----------------------------------------&quot;);</span>
+<span class="fc" id="L247">            bw.newLine();</span>
+<span class="fc" id="L248">            System.out.println(&quot;Data saved successfully to file: &quot; + filePath);</span>
+<span class="nc" id="L249">        } catch (IOException e) {</span>
+<span class="nc" id="L250">            System.err.println(&quot;Error saving data to file: &quot; + e.getMessage());</span>
+<span class="fc" id="L251">        }</span>
+<span class="fc" id="L252">    }</span>
+}
+
+      
+       
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

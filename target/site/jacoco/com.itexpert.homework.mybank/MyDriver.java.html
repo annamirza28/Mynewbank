@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>MyDriver.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">mybank</a> &gt; <a href="index.source.html" class="el_package">com.itexpert.homework.mybank</a> &gt; <span class="el_source">MyDriver.java</span></div><h1>MyDriver.java</h1><pre class="source lang-java linenums">/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.itexpert.homework.mybank;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Ana
+ */
+<span class="nc" id="L13">    public class MyDriver {</span>
+
+    public static void main(String[] args) {
+<span class="nc" id="L16">        System.out.println(&quot;Hello World!&quot;);</span>
+<span class="nc" id="L17">        Bank bank = new Bank(1, &quot; AAE Bank &quot;, &quot;123 Main St&quot;);</span>
+         
+<span class="nc" id="L19">        String filePath = &quot;c:\\data\\mybank.txt&quot;;</span>
+        //bank.addOrUpdateBank();
+
+        //Create Employees
+<span class="nc" id="L23">        Employee emp1 = new Employee(101, &quot;J1ohn Doe&quot;, EmployeeType.CONTRACTOR);</span>
+<span class="nc" id="L24">        Employee emp2 = new Employee(102, &quot;Mike Smith&quot;, EmployeeType.FULLTIME);</span>
+<span class="nc" id="L25">        Employee emp3 = new Employee(103, &quot;Alice Davis&quot;, EmployeeType.CONTRACTOR);</span>
+        
+<span class="nc" id="L27">        bank.addOrUpdateEmployee(emp1);</span>
+<span class="nc" id="L28">        bank.addOrUpdateEmployee(emp2);</span>
+<span class="nc" id="L29">        bank.addOrUpdateEmployee(emp3);</span>
+        
+        //Create Customers
+<span class="nc" id="L32">        Customer cust1 = new Customer(201, &quot;Emma Watson&quot;, CustomerType.INDIVIDUAL);</span>
+<span class="nc" id="L33">        Customer cust2 = new Customer(202, &quot;Mary Brown&quot;, CustomerType.INDIVIDUAL);</span>
+<span class="nc" id="L34">        Customer cust3 = new Customer(203, &quot;Chris Lee&quot;, CustomerType.BUSINESS);</span>
+<span class="nc" id="L35">        Customer cust4 = new Customer(204, &quot;Adam Snow&quot;, CustomerType.BUSINESS);</span>
+<span class="nc" id="L36">        Customer cust5 = new Customer(205, &quot;Sasha Lopez&quot;, CustomerType.BUSINESS);</span>
+<span class="nc" id="L37">        Customer cust6 = new Customer(206, &quot;Liam Red&quot;, CustomerType.INDIVIDUAL);</span>
+        
+<span class="nc" id="L39">        bank.addOrUpdateCustomer(cust1);</span>
+<span class="nc" id="L40">        bank.addOrUpdateCustomer(cust2);</span>
+<span class="nc" id="L41">        bank.addOrUpdateCustomer(cust3);</span>
+<span class="nc" id="L42">        bank.addOrUpdateCustomer(cust4);</span>
+<span class="nc" id="L43">        bank.addOrUpdateCustomer(cust5);</span>
+<span class="nc" id="L44">        bank.addOrUpdateCustomer(cust6);</span>
+        
+        //Create Accounts
+<span class="nc" id="L47">        Account acc1 = new Account(301, AccountType.CHECKING, 500.00, &quot;Emma Watson&quot;);</span>
+<span class="nc" id="L48">        Account acc2 = new Account(302, AccountType.CHECKING, 1000.00, &quot;Mary Brown&quot;);</span>
+<span class="nc" id="L49">        Account acc3 = new Account(303, AccountType.SAVINGS, 1500.00, &quot;Chris Lee&quot;);</span>
+<span class="nc" id="L50">        Account acc4 = new Account(304, AccountType.SAVINGS, 2000.00, &quot;Adam Snow&quot;);</span>
+<span class="nc" id="L51">        Account acc5 = new Account(305, AccountType.CHECKING, 2500.00, &quot;Sasha Lopez&quot;);</span>
+<span class="nc" id="L52">        Account acc6 = new Account(306, AccountType.SAVINGS, 3000.00, &quot;Sasha Lopez&quot;);</span>
+<span class="nc" id="L53">        Account acc7 = new Account(307, AccountType.FIXEDDEPOSIT, 5000.00, &quot;Liam Red&quot;);</span>
+        
+<span class="nc" id="L55">        bank.addOrUpdateAccount(acc1);</span>
+<span class="nc" id="L56">        bank.addOrUpdateAccount(acc2);</span>
+<span class="nc" id="L57">        bank.addOrUpdateAccount(acc3);</span>
+<span class="nc" id="L58">        bank.addOrUpdateAccount(acc4);</span>
+<span class="nc" id="L59">        bank.addOrUpdateAccount(acc5);</span>
+<span class="nc" id="L60">        bank.addOrUpdateAccount(acc6);</span>
+<span class="nc" id="L61">        bank.addOrUpdateAccount(acc7);</span>
+        
+        
+        //Login
+         boolean loginfail;
+        do{
+<span class="nc" id="L67">        String username = &quot;ana&quot;, password = &quot;Ana123&quot;;</span>
+<span class="nc" id="L68">        Scanner sc = new Scanner(System.in);</span>
+<span class="nc" id="L69">        System.out.println(&quot;Enter username&quot;);</span>
+<span class="nc" id="L70">        String uid = sc.next();</span>
+<span class="nc" id="L71">        System.out.println(&quot;Enter password&quot;);</span>
+<span class="nc" id="L72">        String pwd = sc.next();</span>
+
+<span class="nc bnc" id="L74" title="All 4 branches missed.">        if (uid.equalsIgnoreCase(username) &amp;&amp; pwd.equals(password)) {</span>
+<span class="nc" id="L75">            System.out.println(&quot;Login success&quot;);</span>
+<span class="nc" id="L76">            loginfail = false;</span>
+        } else {
+<span class="nc" id="L78">            loginfail = true;</span>
+<span class="nc" id="L79">            System.out.println(&quot;Login fail&quot;);</span>
+        }
+<span class="nc bnc" id="L81" title="All 2 branches missed.">        }while(loginfail);</span>
+        
+       // Load existing data from file
+<span class="nc" id="L84">        bank.loadDataFromFile(filePath);</span>
+       int choice;
+<span class="nc" id="L86">        Scanner sc = new Scanner(System.in);</span>
+        do {
+<span class="nc" id="L88">            System.out.println(&quot;Menu Options:&quot;);</span>
+<span class="nc" id="L89">            System.out.println(&quot;1. Add/Update Bank&quot;);</span>
+<span class="nc" id="L90">            System.out.println(&quot;2. Add/Update Employee&quot;);</span>
+<span class="nc" id="L91">            System.out.println(&quot;3. Add/Update Customer&quot;);</span>
+<span class="nc" id="L92">            System.out.println(&quot;4. Add/Update Account&quot;);</span>
+<span class="nc" id="L93">            System.out.println(&quot;5. Show Employees&quot;);</span>
+<span class="nc" id="L94">            System.out.println(&quot;6. Show Customers&quot;);</span>
+<span class="nc" id="L95">            System.out.println(&quot;7. Show Accounts&quot;);</span>
+<span class="nc" id="L96">            System.out.println(&quot;8. Search Customer by ID&quot;);</span>
+<span class="nc" id="L97">            System.out.println(&quot;9. Search Employee by ID&quot;);</span>
+<span class="nc" id="L98">            System.out.println(&quot;10. Make a deposit&quot;);</span>
+<span class="nc" id="L99">            System.out.println(&quot;11. Make withdrawal&quot;);</span>
+<span class="nc" id="L100">            System.out.println(&quot;12. Save and Quit&quot;);</span>
+<span class="nc" id="L101">            System.out.println(&quot;Enter your choice:&quot;);</span>
+
+<span class="nc" id="L103">            choice = sc.nextInt();</span>
+<span class="nc" id="L104">            sc.nextLine(); // Consume newline</span>
+
+<span class="nc bnc" id="L106" title="All 13 branches missed.">            switch (choice) {</span>
+                case 1:
+                    // Add/Update Bank
+<span class="nc" id="L109">                    System.out.println(&quot;Enter new bank details:&quot;);</span>
+<span class="nc" id="L110">                    System.out.println(&quot;Bank ID:&quot;);</span>
+<span class="nc" id="L111">                    int bankID = sc.nextInt();</span>
+<span class="nc" id="L112">                    sc.nextLine(); // Consume newline</span>
+<span class="nc" id="L113">                    System.out.println(&quot;Bank Name:&quot;);</span>
+<span class="nc" id="L114">                    String bankName = sc.nextLine();</span>
+<span class="nc" id="L115">                    System.out.println(&quot;Bank Address:&quot;);</span>
+<span class="nc" id="L116">                    String bankAddress = sc.nextLine();</span>
+<span class="nc" id="L117">                    bank = new Bank(bankID, bankName, bankAddress);</span>
+<span class="nc" id="L118">                    System.out.println(&quot;Bank updated.&quot;);</span>
+<span class="nc" id="L119">                    break;</span>
+
+                case 2:
+                    // Add/Update Employee
+<span class="nc" id="L123">                    System.out.println(&quot;Enter employee details:&quot;);</span>
+<span class="nc" id="L124">                    System.out.println(&quot;Employee ID:&quot;);</span>
+<span class="nc" id="L125">                    int empID = sc.nextInt();</span>
+<span class="nc" id="L126">                    sc.nextLine(); // Consume newline</span>
+<span class="nc" id="L127">                    System.out.println(&quot;Employee Name:&quot;);</span>
+<span class="nc" id="L128">                    String empName = sc.nextLine();</span>
+<span class="nc" id="L129">                    System.out.println(&quot;Employee Type (FULLTIME/CONTRACTOR):&quot;);</span>
+<span class="nc" id="L130">                    String empTypeStr = sc.nextLine().toUpperCase();</span>
+                    EmployeeType empType;
+
+                    try {
+<span class="nc" id="L134">                        empType = EmployeeType.valueOf(empTypeStr);</span>
+<span class="nc" id="L135">                    } catch (IllegalArgumentException e) {</span>
+<span class="nc" id="L136">                        System.out.println(&quot;Invalid employee type. Please enter FULLTIME or CONTRACTOR.&quot;);</span>
+<span class="nc" id="L137">                        break;</span>
+<span class="nc" id="L138">                    }</span>
+
+<span class="nc" id="L140">                    Employee employee = new Employee(empID, empName, empType);</span>
+<span class="nc" id="L141">                    bank.addOrUpdateEmployee(employee);</span>
+<span class="nc" id="L142">                    break;</span>
+
+                case 3:
+                    // Add/Update Customer
+<span class="nc" id="L146">                    System.out.println(&quot;Enter customer details:&quot;);</span>
+<span class="nc" id="L147">                    System.out.println(&quot;Customer ID:&quot;);</span>
+<span class="nc" id="L148">                    int custID = sc.nextInt();</span>
+<span class="nc" id="L149">                    sc.nextLine(); // Consume newline</span>
+<span class="nc" id="L150">                    System.out.println(&quot;Customer Name:&quot;);</span>
+<span class="nc" id="L151">                    String custName = sc.nextLine();</span>
+<span class="nc" id="L152">                    System.out.println(&quot;Customer Type (BUSINESS/INDIVIDUAL):&quot;);</span>
+                    CustomerType custType;
+                    try {
+<span class="nc" id="L155">                        custType = CustomerType.valueOf(sc.nextLine().toUpperCase());</span>
+<span class="nc" id="L156">                    } catch (IllegalArgumentException e) {</span>
+<span class="nc" id="L157">                        System.out.println(&quot;Invalid customer type. Please enter BUSINESS or INDIVIDUAL.&quot;);</span>
+<span class="nc" id="L158">                        break;</span>
+<span class="nc" id="L159">                    }</span>
+<span class="nc" id="L160">                    Customer customer = new Customer(custID, custName, custType);</span>
+<span class="nc" id="L161">                    bank.addOrUpdateCustomer(customer);</span>
+<span class="nc" id="L162">                    break;</span>
+
+                case 4:
+                    // Add/Update Account
+<span class="nc" id="L166">                    System.out.println(&quot;Enter account details:&quot;);</span>
+<span class="nc" id="L167">                    System.out.println(&quot;Account ID:&quot;);</span>
+<span class="nc" id="L168">                    int accID = sc.nextInt();</span>
+<span class="nc" id="L169">                    sc.nextLine(); // Consume newline</span>
+<span class="nc" id="L170">                    System.out.println(&quot;Account Type (CHECKING/FIXEDDEPOSIT/SAVINGS):&quot;);</span>
+                    AccountType accType;
+                    try {
+<span class="nc" id="L173">                        accType = AccountType.valueOf(sc.nextLine().toUpperCase());</span>
+<span class="nc" id="L174">                    } catch (IllegalArgumentException e) {</span>
+<span class="nc" id="L175">                        System.out.println(&quot;Invalid account type. Please enter CHECKING, FIXEDDEPOSIT, or SAVINGS.&quot;);</span>
+<span class="nc" id="L176">                        break;</span>
+<span class="nc" id="L177">                    }</span>
+<span class="nc" id="L178">                    System.out.println(&quot;Balance:&quot;);</span>
+<span class="nc" id="L179">                    double balance = sc.nextDouble();</span>
+<span class="nc" id="L180">                    sc.nextLine(); // Consume newline</span>
+<span class="nc" id="L181">                    System.out.println(&quot;Customer Name:&quot;);</span>
+<span class="nc" id="L182">                    String customerName = sc.nextLine();</span>
+<span class="nc" id="L183">                    Account account = new Account(accID, accType, balance, customerName);</span>
+<span class="nc" id="L184">                    bank.addOrUpdateAccount(account);</span>
+<span class="nc" id="L185">                    break;</span>
+
+                case 5:
+                    // Show Employees
+<span class="nc" id="L189">                    System.out.println(&quot;List of Employees:&quot;);</span>
+<span class="nc" id="L190">                    bank.showEmployees();</span>
+<span class="nc" id="L191">                    break;</span>
+
+                case 6:
+                    // Show Customers
+<span class="nc" id="L195">                    System.out.println(&quot;List of Customers:&quot;);</span>
+<span class="nc" id="L196">                    bank.showCustomers();</span>
+<span class="nc" id="L197">                    break;</span>
+
+                case 7:
+                    // Show Accounts
+<span class="nc" id="L201">                    System.out.println(&quot;List of Accounts:&quot;);</span>
+<span class="nc" id="L202">                    bank.showAccounts();</span>
+<span class="nc" id="L203">                    break;</span>
+
+                case 8:
+                    // Search Customer by ID
+<span class="nc" id="L207">                    System.out.println(&quot;Enter customer ID to search:&quot;);</span>
+<span class="nc" id="L208">                    int searchCustID = sc.nextInt();</span>
+<span class="nc" id="L209">                    Customer foundCustomer = bank.searchCustomerByID(searchCustID);</span>
+<span class="nc bnc" id="L210" title="All 2 branches missed.">                    if (foundCustomer != null) {</span>
+<span class="nc" id="L211">                        System.out.println(&quot;Customer found: &quot; + foundCustomer);</span>
+                    } else {
+<span class="nc" id="L213">                        System.out.println(&quot;Customer not found.&quot;);</span>
+                    }
+<span class="nc" id="L215">                    break;</span>
+
+                case 9:
+                    // Search Employee by ID
+<span class="nc" id="L219">                    System.out.println(&quot;Enter employee ID to search:&quot;);</span>
+<span class="nc" id="L220">                    int searchEmpID = sc.nextInt();</span>
+<span class="nc" id="L221">                    Employee foundEmployee = bank.searchEmployeeByID(searchEmpID);</span>
+<span class="nc bnc" id="L222" title="All 2 branches missed.">                    if (foundEmployee != null) {</span>
+<span class="nc" id="L223">                        System.out.println(&quot;Employee found: &quot; + foundEmployee);</span>
+                    } else {
+<span class="nc" id="L225">                        System.out.println(&quot;Employee not found.&quot;);</span>
+                    }
+<span class="nc" id="L227">                    break;</span>
+                case 10:
+                    //Make Deposit
+<span class="nc" id="L230">                    System.out.println(&quot;Enter your Account ID&quot;);</span>
+<span class="nc" id="L231">                  int searchAccountID = sc.nextInt();</span>
+<span class="nc" id="L232">                 Account foundAccountID = bank.searchAccountByID(searchAccountID);</span>
+<span class="nc" id="L233">                    sc = new Scanner(System.in);</span>
+<span class="nc" id="L234">                    System.out.println(&quot;Enter deposit amount : &quot;);</span>
+<span class="nc" id="L235">                    double depositamount = sc.nextDouble();</span>
+<span class="nc" id="L236">                    foundAccountID.deposit(depositamount);</span>
+<span class="nc" id="L237">                    break;</span>
+                case 11:   
+                    //Make Withdrawal
+<span class="nc" id="L240">                     System.out.println(&quot;Enter your Account ID&quot;);</span>
+<span class="nc" id="L241">                     searchAccountID = sc.nextInt();</span>
+<span class="nc" id="L242">                    foundAccountID = bank.searchAccountByID(searchAccountID);</span>
+<span class="nc" id="L243">                    sc = new Scanner(System.in);</span>
+<span class="nc" id="L244">                    System.out.println(&quot;Enter withdrawal amount : &quot;);</span>
+<span class="nc" id="L245">                   double withdrawalamount = sc.nextDouble();</span>
+<span class="nc" id="L246">                    foundAccountID.withdraw(withdrawalamount);</span>
+<span class="nc" id="L247">                    break;</span>
+
+                case 12:
+                    // Save and Quit
+<span class="nc" id="L251">                    bank.saveDataToFile(filePath);</span>
+<span class="nc" id="L252">                    System.out.println(&quot;Exiting program. Data saved.&quot;);</span>
+<span class="nc" id="L253">                    break;</span>
+
+                default:
+<span class="nc" id="L256">                    System.out.println(&quot;Invalid choice. Please enter a number from 1 to 10.&quot;);</span>
+                    break;
+            }
+<span class="nc bnc" id="L259" title="All 2 branches missed.">        } while (choice != 12);</span>
+
+<span class="nc" id="L261">        sc.close(); // Close the scanner object</span>
+<span class="nc" id="L262">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

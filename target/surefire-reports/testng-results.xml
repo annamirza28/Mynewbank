@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="53" passed="53" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-07T18:31:23Z" name="Surefire suite" finished-at="2024-08-07T18:31:23Z" duration-ms="311">
+    <groups>
+    </groups>
+    <test started-at="2024-08-07T18:31:23Z" name="Surefire test" finished-at="2024-08-07T18:31:23Z" duration-ms="311">
+      <class name="test.com.itexps.BankTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.com.itexps.BankTest@8576fa0]" started-at="2024-08-07T13:31:23Z" name="setUp" finished-at="2024-08-07T13:31:23Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddOrUpdateAccount()[pri:0, instance:test.com.itexps.BankTest@8576fa0]" started-at="2024-08-07T13:31:23Z" name="testAddOrUpdateAccount" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddOrUpdateAccount -->
+        <test-method signature="testAddOrUpdateCustomer()[pri:0, instance:test.com.itexps.BankTest@8576fa0]" started-at="2024-08-07T13:31:23Z" name="testAddOrUpdateCustomer" finished-at="2024-08-07T13:31:23Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddOrUpdateCustomer -->
+        <test-method signature="testAddOrUpdateEmployee()[pri:0, instance:test.com.itexps.BankTest@8576fa0]" started-at="2024-08-07T13:31:23Z" name="testAddOrUpdateEmployee" finished-at="2024-08-07T13:31:23Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddOrUpdateEmployee -->
+        <test-method signature="testBankAddress()[pri:0, instance:test.com.itexps.BankTest@8576fa0]" started-at="2024-08-07T13:31:23Z" name="testBankAddress" finished-at="2024-08-07T13:31:23Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBankAddress -->
+        <test-method signature="testBankId()[pri:0, instance:test.com.itexps.BankTest@8576fa0]" started-at="2024-08-07T13:31:23Z" name="testBankId" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBankId -->
+        <test-method signature="testBankName()[pri:0, instance:test.com.itexps.BankTest@8576fa0]" started-at="2024-08-07T13:31:23Z" name="testBankName" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBankName -->
+        <test-method signature="testSaveAndLoadData()[pri:0, instance:test.com.itexps.BankTest@8576fa0]" started-at="2024-08-07T13:31:23Z" name="testSaveAndLoadData" finished-at="2024-08-07T13:31:23Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveAndLoadData -->
+        <test-method signature="testSearchAccountByID()[pri:0, instance:test.com.itexps.BankTest@8576fa0]" started-at="2024-08-07T13:31:23Z" name="testSearchAccountByID" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchAccountByID -->
+        <test-method signature="testSearchCustomerByID()[pri:0, instance:test.com.itexps.BankTest@8576fa0]" started-at="2024-08-07T13:31:23Z" name="testSearchCustomerByID" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchCustomerByID -->
+        <test-method signature="testSearchEmployeeByID()[pri:0, instance:test.com.itexps.BankTest@8576fa0]" started-at="2024-08-07T13:31:23Z" name="testSearchEmployeeByID" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchEmployeeByID -->
+        <test-method signature="testfilePath()[pri:0, instance:test.com.itexps.BankTest@8576fa0]" started-at="2024-08-07T13:31:23Z" name="testfilePath" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfilePath -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.com.itexps.BankTest@8576fa0]" started-at="2024-08-07T13:31:23Z" name="tearDown" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.com.itexps.BankTest -->
+      <class name="test.com.itexps.Account1Test">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="setUpClass" finished-at="2024-08-07T13:31:23Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testAccountBalance()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="testAccountBalance" finished-at="2024-08-07T13:31:23Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountBalance -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testAccountCustomerName()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="testAccountCustomerName" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountCustomerName -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testAccountID()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="testAccountID" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountID -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testAccountType()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="testAccountType" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountType -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testCheckBalance()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="testCheckBalance" finished-at="2024-08-07T13:31:23Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckBalance -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testDeposit()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="testDeposit" finished-at="2024-08-07T13:31:23Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeposit -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testDepositNegativeAmount()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="testDepositNegativeAmount" finished-at="2024-08-07T13:31:23Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDepositNegativeAmount -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testSetBalance()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="testSetBalance" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetBalance -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testToString()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="testToString" finished-at="2024-08-07T13:31:23Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testWithdraw()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="testWithdraw" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdraw -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testWithdrawNegativeAmount()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="testWithdrawNegativeAmount" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdrawNegativeAmount -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testWithdrawOutOfFunds()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="testWithdrawOutOfFunds" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdrawOutOfFunds -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="tearDownClass" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.Account1Test@6239aba6]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- test.com.itexps.Account1Test -->
+      <class name="test.com.itexps.FixedDepositTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.FixedDepositTest@492691d7]" started-at="2024-08-07T13:31:23Z" name="setUpClass" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.FixedDepositTest@492691d7]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testDepositOnFixedDeposit()[pri:0, instance:test.com.itexps.FixedDepositTest@492691d7]" started-at="2024-08-07T13:31:23Z" name="testDepositOnFixedDeposit" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDepositOnFixedDeposit -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.FixedDepositTest@492691d7]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.FixedDepositTest@492691d7]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testFixedDeposit()[pri:0, instance:test.com.itexps.FixedDepositTest@492691d7]" started-at="2024-08-07T13:31:23Z" name="testFixedDeposit" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFixedDeposit -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.FixedDepositTest@492691d7]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testToString()[pri:0, instance:test.com.itexps.FixedDepositTest@492691d7]" started-at="2024-08-07T13:31:23Z" name="testToString" finished-at="2024-08-07T13:31:23Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.FixedDepositTest@492691d7]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.FixedDepositTest@492691d7]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testWithdrawalOnFixedDeposit()[pri:0, instance:test.com.itexps.FixedDepositTest@492691d7]" started-at="2024-08-07T13:31:23Z" name="testWithdrawalOnFixedDeposit" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdrawalOnFixedDeposit -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.FixedDepositTest@492691d7]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.FixedDepositTest@492691d7]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.FixedDepositTest@492691d7]" started-at="2024-08-07T13:31:23Z" name="tearDownClass" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.com.itexps.FixedDepositTest -->
+      <class name="test.com.itexps.EmployeeTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.EmployeeTest@5f354bcf]" started-at="2024-08-07T13:31:23Z" name="setUpClass" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.EmployeeTest@5f354bcf]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.EmployeeTest@5f354bcf]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testEmployeeID()[pri:0, instance:test.com.itexps.EmployeeTest@5f354bcf]" started-at="2024-08-07T13:31:23Z" name="testEmployeeID" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeID -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.EmployeeTest@5f354bcf]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testEmployeeName()[pri:0, instance:test.com.itexps.EmployeeTest@5f354bcf]" started-at="2024-08-07T13:31:23Z" name="testEmployeeName" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeName -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.EmployeeTest@5f354bcf]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.EmployeeTest@5f354bcf]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testEmployeeToString()[pri:0, instance:test.com.itexps.EmployeeTest@5f354bcf]" started-at="2024-08-07T13:31:23Z" name="testEmployeeToString" finished-at="2024-08-07T13:31:23Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeToString -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.EmployeeTest@5f354bcf]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.EmployeeTest@5f354bcf]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testEmployeeType()[pri:0, instance:test.com.itexps.EmployeeTest@5f354bcf]" started-at="2024-08-07T13:31:23Z" name="testEmployeeType" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployeeType -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.EmployeeTest@5f354bcf]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.EmployeeTest@5f354bcf]" started-at="2024-08-07T13:31:23Z" name="tearDownClass" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.com.itexps.EmployeeTest -->
+      <class name="test.com.itexps.IndividualTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.IndividualTest@3daf7722]" started-at="2024-08-07T13:31:23Z" name="setUpClass" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.IndividualTest@3daf7722]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testIndividual()[pri:0, instance:test.com.itexps.IndividualTest@3daf7722]" started-at="2024-08-07T13:31:23Z" name="testIndividual" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIndividual -->
+        <test-method signature="testToString()[pri:0, instance:test.com.itexps.IndividualTest@3daf7722]" started-at="2024-08-07T13:31:23Z" name="testToString" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.IndividualTest@3daf7722]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.IndividualTest@3daf7722]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.IndividualTest@3daf7722]" started-at="2024-08-07T13:31:23Z" name="tearDownClass" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.IndividualTest@3daf7722]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- test.com.itexps.IndividualTest -->
+      <class name="test.com.itexps.CheckingTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.CheckingTest@558bdf1f]" started-at="2024-08-07T13:31:23Z" name="setUpClass" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.CheckingTest@558bdf1f]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testChecking()[pri:0, instance:test.com.itexps.CheckingTest@558bdf1f]" started-at="2024-08-07T13:31:23Z" name="testChecking" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChecking -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.CheckingTest@558bdf1f]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.CheckingTest@558bdf1f]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testToString()[pri:0, instance:test.com.itexps.CheckingTest@558bdf1f]" started-at="2024-08-07T13:31:23Z" name="testToString" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.CheckingTest@558bdf1f]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.CheckingTest@558bdf1f]" started-at="2024-08-07T13:31:23Z" name="tearDownClass" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.com.itexps.CheckingTest -->
+      <class name="test.com.itexps.FullTimeTest">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.FullTimeTest@67545b57]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.FullTimeTest@67545b57]" started-at="2024-08-07T13:31:23Z" name="setUpClass" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="testFullTime()[pri:0, instance:test.com.itexps.FullTimeTest@67545b57]" started-at="2024-08-07T13:31:23Z" name="testFullTime" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullTime -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.FullTimeTest@67545b57]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.FullTimeTest@67545b57]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testToString()[pri:0, instance:test.com.itexps.FullTimeTest@67545b57]" started-at="2024-08-07T13:31:23Z" name="testToString" finished-at="2024-08-07T13:31:23Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.FullTimeTest@67545b57]" started-at="2024-08-07T13:31:23Z" name="tearDownClass" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.FullTimeTest@67545b57]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- test.com.itexps.FullTimeTest -->
+      <class name="test.com.itexps.CustomerTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="setUpClass" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testBusinessCustomerID()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="testBusinessCustomerID" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBusinessCustomerID -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testBusinessCustomerName()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="testBusinessCustomerName" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBusinessCustomerName -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testBusinessCustomerType()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="testBusinessCustomerType" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBusinessCustomerType -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testCustomerID()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="testCustomerID" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerID -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testCustomerName()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="testCustomerName" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerName -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testCustomerType()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="testCustomerType" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerType -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testIndividualCustomerID()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="testIndividualCustomerID" finished-at="2024-08-07T13:31:23Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIndividualCustomerID -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testIndividualCustomerName()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="testIndividualCustomerName" finished-at="2024-08-07T13:31:23Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIndividualCustomerName -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testIndividualCustomerType()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="testIndividualCustomerType" finished-at="2024-08-07T13:31:23Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIndividualCustomerType -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testToString()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="testToString" finished-at="2024-08-07T13:31:23Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.CustomerTest@7582ff54]" started-at="2024-08-07T13:31:23Z" name="tearDownClass" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.com.itexps.CustomerTest -->
+      <class name="test.com.itexps.SavingsTest">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.SavingsTest@6c2c1385]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.SavingsTest@6c2c1385]" started-at="2024-08-07T13:31:23Z" name="setUpClass" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="testSavings()[pri:0, instance:test.com.itexps.SavingsTest@6c2c1385]" started-at="2024-08-07T13:31:23Z" name="testSavings" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSavings -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.SavingsTest@6c2c1385]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.SavingsTest@6c2c1385]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testToString()[pri:0, instance:test.com.itexps.SavingsTest@6c2c1385]" started-at="2024-08-07T13:31:23Z" name="testToString" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.SavingsTest@6c2c1385]" started-at="2024-08-07T13:31:23Z" name="tearDownClass" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.SavingsTest@6c2c1385]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- test.com.itexps.SavingsTest -->
+      <class name="test.com.itexps.ContractorTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.ContractorTest@3d9c13b5]" started-at="2024-08-07T13:31:23Z" name="setUpClass" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.ContractorTest@3d9c13b5]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testConstructor()[pri:0, instance:test.com.itexps.ContractorTest@3d9c13b5]" started-at="2024-08-07T13:31:23Z" name="testConstructor" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConstructor -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.ContractorTest@3d9c13b5]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.ContractorTest@3d9c13b5]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testToString()[pri:0, instance:test.com.itexps.ContractorTest@3d9c13b5]" started-at="2024-08-07T13:31:23Z" name="testToString" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.ContractorTest@3d9c13b5]" started-at="2024-08-07T13:31:23Z" name="tearDownClass" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.ContractorTest@3d9c13b5]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- test.com.itexps.ContractorTest -->
+      <class name="test.com.itexps.BusinessTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.itexps.BusinessTest@27216cd]" started-at="2024-08-07T13:31:23Z" name="setUpClass" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.BusinessTest@27216cd]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testBusiness()[pri:0, instance:test.com.itexps.BusinessTest@27216cd]" started-at="2024-08-07T13:31:23Z" name="testBusiness" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBusiness -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.BusinessTest@27216cd]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testToString()[pri:0, instance:test.com.itexps.BusinessTest@27216cd]" started-at="2024-08-07T13:31:23Z" name="testToString" finished-at="2024-08-07T13:31:23Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToString -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.itexps.BusinessTest@27216cd]" started-at="2024-08-07T13:31:23Z" name="setUpMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.itexps.BusinessTest@27216cd]" started-at="2024-08-07T13:31:23Z" name="tearDownMethod" finished-at="2024-08-07T13:31:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.itexps.BusinessTest@27216cd]" started-at="2024-08-07T13:31:23Z" name="tearDownClass" finished-at="2024-08-07T13:31:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.com.itexps.BusinessTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
